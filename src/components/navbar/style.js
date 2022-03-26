@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const NavbarWrapper = styled.div`
-width: 100vw;
 height: 4.1875rem;
 background: #292929;
 display: flex;
