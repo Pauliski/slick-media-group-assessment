@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 import Navbar from "../src/components/navbar/Navbar";
+import Hero from "../src/components/hero/Hero";
 
 const Paragraph = styled.p`
   font-size: 50px;
@@ -21,6 +22,7 @@ export default function Home() {
 
       <main>
         <Navbar />
+        <Hero />
         <Paragraph>Hello World</Paragraph>
       </main>
     </div>
