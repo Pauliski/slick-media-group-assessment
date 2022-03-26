@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
   height: 16.0625rem;
-  width: 100vw;
   position: relative;
 
   @media (min-width: 834px) {
