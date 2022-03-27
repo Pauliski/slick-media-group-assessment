@@ -1,5 +1,4 @@
 import React from "react";
-import HeroSectionImage from "../../../public/icon/HeroSectionImage";
 import HeroSectionImageSmall from "../../../public/icon/HeroSectionImageSmall";
 import {
     HeroContent,
@@ -19,17 +18,14 @@ const Hero = () => {
           <HeroTextContainer>
               <HeroText>Watch something incredible.</HeroText>
           </HeroTextContainer>
-        
         <HeroImageSmall>
           <HeroSectionImageSmall />
         </HeroImageSmall>
         <HeroImageMedium>
           <HeroSvg src="/svg/HeroImageMedium.svg" alt="image" />
-          {/* <HeroSectionImage /> */}
         </HeroImageMedium>
         <HeroImageLarge>
           <HeroSvg src="/svg/HeroImage.svg" alt="image" />
-          {/* <HeroSectionImage /> */}
         </HeroImageLarge>
       </HeroContent>
     </HeroWrapper>
