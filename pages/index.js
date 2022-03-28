@@ -10,7 +10,8 @@ export default function Home() {
   const [result, setResult] = useState([]);
 
   const makeApiCall = async (searchString) => {
-    try {
+    if(searchString.trim().length > 2){
+      try {
       const res = await axios.get(
         `/api/omdbrequest?searchString=${searchString}`
       );
@@ -21,6 +22,10 @@ export default function Home() {
     } catch (error) {
       console.log(error);
     }
+    }else{
+      setResult([]);
+    }
+    
   };
   useEffect(() => {
     setResult(result);
